@@ -5,8 +5,8 @@
 - **Họ và tên:** Bui Le Thai Son
 - **MSSV:** 02880
 - **Lớp:** K4-L3B
-- **Repository URL:**
-- **Commit SHA cuối:**
+- **Repository URL:** https://github.com/sonbui69000-hue/K4-L3-DAY13-BuiLeThaiSon-02880-Monitoring-LLMOps
+- **Commit SHA cuối:** `0feaf1a37a1f7346ce5f452844a7594947064b00`
 - **Challenge ID:** `day13-k4-l3b-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3b-02880`
 
