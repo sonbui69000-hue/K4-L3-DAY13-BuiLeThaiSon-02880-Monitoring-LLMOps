@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 from contextlib import contextmanager
+from functools import wraps
 from typing import Any
 
 try:
@@ -13,7 +14,11 @@ except ImportError:  # pragma: no cover - chỉ dùng khi chưa cài requirement
 
     def observe(*args: Any, **kwargs: Any):
         def decorator(func):
-            return func
+            @wraps(func)
+            def wrapped(*args: Any, **kwargs: Any):
+                return func(*args, **kwargs)
+
+            return wrapped
 
         return decorator
 
